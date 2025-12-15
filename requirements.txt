@@ -51,7 +51,6 @@ six==1.17.0
 smmap==5.0.2
 streamlit==1.51.0
 streamlit-aggrid==1.2.0.post1
-svglib==1.6.0
 tenacity==9.1.2
 timedelta==2020.12.3
 tinycss2==1.4.0
@@ -64,6 +63,7 @@ uritools==5.0.0
 urllib3==2.5.0
 watchdog==6.0.0
 webencodings==0.5.1
+
 
 
 
