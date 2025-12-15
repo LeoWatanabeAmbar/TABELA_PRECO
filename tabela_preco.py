@@ -10,8 +10,6 @@ import json
 from pathlib import Path
 from datetime import date
 import io
-import pdfplumber
-import pyodbc
 import re
 from datetime import datetime, timedelta
 
@@ -193,4 +191,5 @@ if not df_tabelas_preco.empty:
     AgGrid(df_filtrado, gridOptions=gridOptions, height=500, fit_columns_on_grid_load=True)
 
 else:
+
     st.warning("Nenhuma tabela encontrada na API.")
